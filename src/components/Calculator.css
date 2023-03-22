@@ -1,0 +1,42 @@
+button {
+  border: 1px solid rgb(63, 51, 51);
+  color: white;
+  height: 4em;
+  width: 4em;
+  font-size: 1.2em;
+  border-radius: 25%;
+  cursor: pointer;
+  background-image: linear-gradient(to top, black , gray);
+  margin: 5px;
+  transition: 0.1s;
+}
+
+button:hover {
+  color: black;
+  border: none;
+  font-size: 1.19em;
+  box-shadow: inset -4px 2px 2px 1px rgb(46, 45, 45);
+}
+
+.Container > div > h1 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(140, 174, 130);
+  color: white;
+  margin: 10px 21px 10px 0px;
+  padding:15px;
+  border-radius: 10px;
+}
+.Container > div {
+  max-width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+.Container {
+  background-color: rgb(45, 44, 44);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5%;
+}
