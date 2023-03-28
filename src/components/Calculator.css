@@ -1,12 +1,12 @@
 button {
-  border: 1px solid rgb(63, 51, 51);
+
   color: white;
   height: 4em;
   width: 4em;
   font-size: 1.2em;
   border-radius: 25%;
   cursor: pointer;
-  background-image: linear-gradient(to top, black , gray);
+  background-image: linear-gradient(to top, black , rgb(87, 87, 87));
   margin: 5px;
   transition: 0.1s;
 }
@@ -15,7 +15,12 @@ button:hover {
   color: black;
   border: none;
   font-size: 1.19em;
-  box-shadow: inset -4px 2px 2px 1px rgb(46, 45, 45);
+  background-image: linear-gradient(to top, black , rgb(80, 80, 80));
+  box-shadow: inset 2px 2px 2px 3px rgb(20, 20, 20);
+}
+.zero {
+  padding: 0px 7em 0px 1.5em;
+  border-radius: 15%;
 }
 
 .Container > div > h1 {
@@ -38,5 +43,5 @@ button:hover {
   flex-direction: column;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 5%;
+  margin: 2%;
 }
